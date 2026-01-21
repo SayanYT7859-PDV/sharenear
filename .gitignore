@@ -26,4 +26,7 @@ dist-ssr
 # local env
 .env.local
 functions/.runtimeconfig.json
+.env
+.env.local
+.firebase/
 
