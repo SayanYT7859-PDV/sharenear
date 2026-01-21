@@ -16,7 +16,7 @@ const Home: React.FC = () => {
     <div className="p-4 max-w-md mx-auto">
       <header className="flex justify-between items-center mb-6">
         <h1 className="text-2xl font-bold">ShareNear</h1>
-        <Link to="/auth" className="text-blue-600 text-sm">Login</Link>
+        <Link to="/login" className="text-blue-600 text-sm">Login</Link>
       </header>
 
       <div className="h-64 bg-gray-200 rounded-lg overflow-hidden mb-6">

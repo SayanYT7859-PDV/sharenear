@@ -5,7 +5,7 @@ const Home = React.lazy(() => import('./pages/Home'));
 const AddItem = React.lazy(() => import('./pages/AddItem'));
 const ItemDetail = React.lazy(() => import('./pages/ItemDetail'));
 const Dashboard = React.lazy(() => import('./pages/Dashboard'));
-const Auth = React.lazy(() => import('./pages/Auth'));
+const Login = React.lazy(() => import('./pages/Login'));
 
 const Layout: React.FC = () => {
   return (
@@ -34,12 +34,12 @@ const router = createBrowserRouter([
         element: <ItemDetail />,
       },
       {
-        path: '/dashboard',
-        element: <Dashboard />,
+        path: '/login',
+        element: <Login />,
       },
       {
-        path: '/auth',
-        element: <Auth />,
+        path: '/dashboard',
+        element: <Dashboard />,
       },
     ],
   },
